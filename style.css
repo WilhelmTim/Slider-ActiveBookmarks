@@ -1,0 +1,96 @@
+*	{ margin: 0; padding: 0;	overflow: hidden;}
+html,body	{height: 100%; width: 100%;}
+
+#container	{
+	width: 100%;
+	height: 100%;
+}
+
+.navitext1, .navitext2, .navitext3	{
+	width: 33%;
+	height: 100%;
+	line-height: 100vh;
+	text-align: center;
+	font-size: 20pt;
+	background-color:grey;
+	float: left;
+}
+.navitext1:hover, .navitext2:hover, .navitext3:hover	{
+	background-color: black;
+	color: white;
+}
+
+#bookmarks	{
+	width: 100%;
+	height: 0%;
+	z-index:2;
+	background-color: #A1A1A1;
+	position: absolute;
+	margin: 0%;
+	padding: 0%;
+}
+
+.slideup	{
+	width:100%;
+	height: 5%;
+	background-color: #F3F3F3;
+	float: left;
+	text-align: center;
+	font-size: 2vw;
+
+}
+.bookmarks-bg	{
+	width: 100%;
+	height:95%;
+	background-image: url(background.jpg);
+	background-size: cover;
+	float: left;
+}
+
+.pdstr1, .pdstr2, .pdstr3	{
+	width: 100%;
+	height: 95%;
+	display: inline;
+	float: left;
+	position:absolute;
+	overflow: hidden;
+}
+.text-container	{
+	width: 90%;
+	height: 95%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 3%;
+	background-color: #CCCCFF;
+}
+
+.insidetext	{
+	margin-top: 3%;
+	margin-left:2%;
+	margin-right:2%;
+}
+
+
+.navigation1, .navigation2, .navigation3	{
+	width: 33%;
+	height: 5%;
+	background-color: #F3F3F3;
+	font-size: 2vw;
+	text-decoration: bold;
+	text-align: center;
+	float:left;
+}
+
+.navigation1:hover, .navigation2:hover, .navigation3:hover	{
+	background-color: white;
+}
+
+
+
+
+
+
+
+	
+
+
